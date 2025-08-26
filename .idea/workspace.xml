@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5d4d953-9498-4dd9-ab25-f51b11f6401f" name="Changes" comment="Ejercicio-14 =Diseña una versión para consola del clásico juego del &quot;Ahorcado&quot;. El programa debe ser capaz de gestionar toda la lógica del juego, desde la selección de la palabra hasta determinar si el jugador ha ganado o perdido.">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.python-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cristian18rzk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Cristian18rzk/PYTHON-MODULO-2.git&quot;,
+    &quot;accountId&quot;: &quot;c8b9a5b3-d23d-4ace-bad5-2fe5f5e842e0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="31mfuATYn3WTAa0rfr80Ajfb5Br" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Ejercicio_1.executor": "Run",
+    "Python.Ejercicio_13.executor": "Run",
+    "Python.Ejercicio_14.executor": "Run",
+    "Python.Ejercicio_15.executor": "Run",
+    "Python.Ejercicio_2.executor": "Run",
+    "Python.Ejercicio_3.executor": "Run",
+    "Python.Ejercicio_5.executor": "Run",
+    "Python.Ejercicio_8.executor": "Run",
+    "Python.Ejercicio_9.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.74" />
+        <option value="bundled-python-sdk-657d8234b839-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5d4d953-9498-4dd9-ab25-f51b11f6401f" name="Changes" comment="" />
+      <created>1756134388917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756134388917</updated>
+      <workItem from="1756134390141" duration="717000" />
+      <workItem from="1756135122179" duration="1299000" />
+      <workItem from="1756136440366" duration="249000" />
+      <workItem from="1756136701558" duration="1006000" />
+      <workItem from="1756138451894" duration="851000" />
+      <workItem from="1756139320701" duration="19000" />
+      <workItem from="1756139353971" duration="393000" />
+      <workItem from="1756165015899" duration="136000" />
+      <workItem from="1756165814494" duration="335000" />
+      <workItem from="1756166163349" duration="329000" />
+      <workItem from="1756166584558" duration="60000" />
+      <workItem from="1756166659339" duration="265000" />
+      <workItem from="1756166940351" duration="160000" />
+      <workItem from="1756167117676" duration="188000" />
+      <workItem from="1756167317826" duration="239000" />
+      <workItem from="1756167570396" duration="137000" />
+      <workItem from="1756167721199" duration="182000" />
+      <workItem from="1756167915502" duration="118000" />
+      <workItem from="1756168186144" duration="86000" />
+      <workItem from="1756168281063" duration="197000" />
+      <workItem from="1756168499857" duration="728000" />
+    </task>
+    <task id="LOCAL-00001" summary="Ejercicio 1= Crea un programa que calcule el precio de una entrada de cine basándose en la edad del cliente.">
+      <option name="closed" value="true" />
+      <created>1756135767452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756135767452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ejercicio-1 = Crea un programa que calcule el precio de una entrada de cine basándose en la edad del cliente.">
+      <option name="closed" value="true" />
+      <created>1756138348659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756138348659</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ejercicio-2 =Desarrolla un programa que simule un menú de consola usando la estructura match-case. El programa mostrará una lista de comandos disponibles (&quot;guardar&quot;, &quot;cargar&quot;, &quot;salir&quot;).">
+      <option name="closed" value="true" />
+      <created>1756139595790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756139595790</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ejercicio-3 =Escribir un programa que pida al usuario crear una contraseña y la valide usando un bucle while. El bucle solo terminará cuando la contraseña cumpla todos los criterios.">
+      <option name="closed" value="true" />
+      <created>1756139735656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756139735656</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ejercicio-4 =Juego de Piedra, Papel o Tijeras&#10;Implementar el clásico juego para jugar contra la computadora.">
+      <option name="closed" value="true" />
+      <created>1756166090701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756166090702</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ejercicio-4 =Juego de Piedra, Papel o Tijeras&#10;Implementar el clásico juego para jugar contra la computadora.">
+      <option name="closed" value="true" />
+      <created>1756166289233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756166289233</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ejercicio-6 =Crea una función que reciba una frase y una letra. La función debe devolver una lista con todos los índices (posiciones) en los que aparece esa letra en la frase..">
+      <option name="closed" value="true" />
+      <created>1756166777756</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756166777756</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ejercicio-7 =Dadas dos listas, una con nombres de estudiantes y otra con sus respectivas notas finales, crea una función que las combine para generar un diccionario. Las claves serán los nombres y los valores las notas">
+      <option name="closed" value="true" />
+      <created>1756167052260</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756167052260</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ejercicio-8 =Dada una lista de números [-5, 10, -15, 20, -25, 30], utiliza una list comprehension para crear tres nuevas listas:&#10;•&#9;Una lista con solo los números positivos.&#10;•&#9;Una lista con los cuadrados de todos los números.&#10;•&#9;Una lista de strings que diga &quot;positivo&quot; o &quot;negativo&quot; para cada número, usando un ternario dentro de la comprensión.">
+      <option name="closed" value="true" />
+      <created>1756167271855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756167271855</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ejercicio-9 =Tienes una lista de productos, donde cada producto es un diccionario: [{&quot;nombre&quot;: &quot;Camisa&quot;, &quot;precio&quot;: 50000}, {&quot;nombre&quot;: &quot;Pantalón&quot;, &quot;precio&quot;: 80000}]:&#10;•&#9;Usar una dictionary comprehension para crear un nuevo diccionario donde los nombres de los productos sean las claves y los precios con un 19% de IVA incluido sean los valores.">
+      <option name="closed" value="true" />
+      <created>1756167476114</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756167476114</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ejercicio-10 =Crea una función que reciba una matriz (lista de listas) y devuelva su transpuesta. La transpuesta se logra intercambiando filas por columnas.">
+      <option name="closed" value="true" />
+      <created>1756167671787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1756167671787</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ejercicio-11 =Escribe una función que valide un número de cédula (como string) basado en una regla simple: la suma de sus dígitos debe ser un número par. La función debe devolver True si es válido y False si no:&#10;•&#9;Adicionalmente, el programa principal debe pedir al usuario su cédula hasta que ingrese una válida, usando un bucle.">
+      <option name="closed" value="true" />
+      <created>1756167849665</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756167849665</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ejercicio-12 =: Simulador de Lanzamiento de Dados&#10;•&#9;Crea un programa que simule el lanzamiento de dos dados 10,000 veces.&#10;•&#9;Usa un diccionario para contar la frecuencia de cada posible suma de los dados (de 2 a 12).&#10;•&#9;Al final, imprime un reporte con la frecuencia de cada suma.">
+      <option name="closed" value="true" />
+      <created>1756168014925</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1756168014925</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ejercicio-13 =Diseñar un pequeño juego de aventura basado en texto. El jugador comienza en una habitación y puede tomar decisiones ('ir al norte', 'abrir cofre'):&#10;•&#9;El juego debe tener al menos 3 habitaciones y un estado final (ganar o perder).&#10;•&#9;Utiliza un bucle while para el bucle principal del juego y estructuras if/elif/else para manejar las decisiones del jugador y el estado del juego.">
+      <option name="closed" value="true" />
+      <created>1756168459447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1756168459448</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ejercicio-14 =Diseña una versión para consola del clásico juego del &quot;Ahorcado&quot;. El programa debe ser capaz de gestionar toda la lógica del juego, desde la selección de la palabra hasta determinar si el jugador ha ganado o perdido.">
+      <option name="closed" value="true" />
+      <created>1756168789792</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756168789792</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Ejercicio 1= Crea un programa que calcule el precio de una entrada de cine basándose en la edad del cliente." />
+    <MESSAGE value="Ejercicio-1 = Crea un programa que calcule el precio de una entrada de cine basándose en la edad del cliente." />
+    <MESSAGE value="Ejercicio-2 =Desarrolla un programa que simule un menú de consola usando la estructura match-case. El programa mostrará una lista de comandos disponibles (&quot;guardar&quot;, &quot;cargar&quot;, &quot;salir&quot;)." />
+    <MESSAGE value="Ejercicio-3 =Escribir un programa que pida al usuario crear una contraseña y la valide usando un bucle while. El bucle solo terminará cuando la contraseña cumpla todos los criterios." />
+    <MESSAGE value="Ejercicio-4 =Juego de Piedra, Papel o Tijeras&#10;Implementar el clásico juego para jugar contra la computadora." />
+    <MESSAGE value="Ejercicio-6 =Crea una función que reciba una frase y una letra. La función debe devolver una lista con todos los índices (posiciones) en los que aparece esa letra en la frase.." />
+    <MESSAGE value="Ejercicio-7 =Dadas dos listas, una con nombres de estudiantes y otra con sus respectivas notas finales, crea una función que las combine para generar un diccionario. Las claves serán los nombres y los valores las notas" />
+    <MESSAGE value="Ejercicio-8 =Dada una lista de números [-5, 10, -15, 20, -25, 30], utiliza una list comprehension para crear tres nuevas listas:&#10;•&#9;Una lista con solo los números positivos.&#10;•&#9;Una lista con los cuadrados de todos los números.&#10;•&#9;Una lista de strings que diga &quot;positivo&quot; o &quot;negativo&quot; para cada número, usando un ternario dentro de la comprensión." />
+    <MESSAGE value="Ejercicio-9 =Tienes una lista de productos, donde cada producto es un diccionario: [{&quot;nombre&quot;: &quot;Camisa&quot;, &quot;precio&quot;: 50000}, {&quot;nombre&quot;: &quot;Pantalón&quot;, &quot;precio&quot;: 80000}]:&#10;•&#9;Usar una dictionary comprehension para crear un nuevo diccionario donde los nombres de los productos sean las claves y los precios con un 19% de IVA incluido sean los valores." />
+    <MESSAGE value="Ejercicio-10 =Crea una función que reciba una matriz (lista de listas) y devuelva su transpuesta. La transpuesta se logra intercambiando filas por columnas." />
+    <MESSAGE value="Ejercicio-11 =Escribe una función que valide un número de cédula (como string) basado en una regla simple: la suma de sus dígitos debe ser un número par. La función debe devolver True si es válido y False si no:&#10;•&#9;Adicionalmente, el programa principal debe pedir al usuario su cédula hasta que ingrese una válida, usando un bucle." />
+    <MESSAGE value="Ejercicio-12 =: Simulador de Lanzamiento de Dados&#10;•&#9;Crea un programa que simule el lanzamiento de dos dados 10,000 veces.&#10;•&#9;Usa un diccionario para contar la frecuencia de cada posible suma de los dados (de 2 a 12).&#10;•&#9;Al final, imprime un reporte con la frecuencia de cada suma." />
+    <MESSAGE value="Ejercicio-13 =Diseñar un pequeño juego de aventura basado en texto. El jugador comienza en una habitación y puede tomar decisiones ('ir al norte', 'abrir cofre'):&#10;•&#9;El juego debe tener al menos 3 habitaciones y un estado final (ganar o perder).&#10;•&#9;Utiliza un bucle while para el bucle principal del juego y estructuras if/elif/else para manejar las decisiones del jugador y el estado del juego." />
+    <MESSAGE value="Ejercicio-14 =Diseña una versión para consola del clásico juego del &quot;Ahorcado&quot;. El programa debe ser capaz de gestionar toda la lógica del juego, desde la selección de la palabra hasta determinar si el jugador ha ganado o perdido." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio-14 =Diseña una versión para consola del clásico juego del &quot;Ahorcado&quot;. El programa debe ser capaz de gestionar toda la lógica del juego, desde la selección de la palabra hasta determinar si el jugador ha ganado o perdido." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_5.coverage" NAME="Ejercicio_5 Coverage Results" MODIFIED="1756166232244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_8.coverage" NAME="Ejercicio_8 Coverage Results" MODIFIED="1756167155719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_2.coverage" NAME="Ejercicio_2 Coverage Results" MODIFIED="1756138660514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_15.coverage" NAME="Ejercicio_15 Coverage Results" MODIFIED="1756169052490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_9.coverage" NAME="Ejercicio_9 Coverage Results" MODIFIED="1756167360108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_13.coverage" NAME="Ejercicio_13 Coverage Results" MODIFIED="1756168199152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_14.coverage" NAME="Ejercicio_14 Coverage Results" MODIFIED="1756168647604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_3.coverage" NAME="Ejercicio_3 Coverage Results" MODIFIED="1756139361208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_1.coverage" NAME="Ejercicio_1 Coverage Results" MODIFIED="1756135594868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
