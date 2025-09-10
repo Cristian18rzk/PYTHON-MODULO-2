@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5d4d953-9498-4dd9-ab25-f51b11f6401f" name="Changes" comment="Ejercicio-14 =Diseña una versión para consola del clásico juego del &quot;Ahorcado&quot;. El programa debe ser capaz de gestionar toda la lógica del juego, desde la selección de la palabra hasta determinar si el jugador ha ganado o perdido.">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a5d4d953-9498-4dd9-ab25-f51b11f6401f" name="Changes" comment="Version Final del Taller">
       <change afterPath="$PROJECT_DIR$/.python-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio_15.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_Ejercicio_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_13.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,35 +69,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Ejercicio_1.executor": "Run",
-    "Python.Ejercicio_13.executor": "Run",
-    "Python.Ejercicio_14.executor": "Run",
-    "Python.Ejercicio_15.executor": "Run",
-    "Python.Ejercicio_2.executor": "Run",
-    "Python.Ejercicio_3.executor": "Run",
-    "Python.Ejercicio_5.executor": "Run",
-    "Python.Ejercicio_8.executor": "Run",
-    "Python.Ejercicio_9.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_10.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_11.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_12.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_13.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_14.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_15.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_3.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_4.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_5.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_6.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_7.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_8.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Ejercicio_9.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio_9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sneid\PycharmProjects\PYTHON-MODULO-2\test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests in test_Ejercicio_1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON-MODULO-2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_Ejercicio_1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_Ejercicio_1.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.74" />
         <option value="bundled-python-sdk-657d8234b839-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.74" />
       </set>
     </attachedChunks>
@@ -116,7 +175,8 @@
       <workItem from="1756167915502" duration="118000" />
       <workItem from="1756168186144" duration="86000" />
       <workItem from="1756168281063" duration="197000" />
-      <workItem from="1756168499857" duration="728000" />
+      <workItem from="1756168499857" duration="977000" />
+      <workItem from="1756294873292" duration="809000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio 1= Crea un programa que calcule el precio de una entrada de cine basándose en la edad del cliente.">
       <option name="closed" value="true" />
@@ -238,7 +298,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756168789792</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Ejercicio-15 =Crea una versión del juego &quot;Batalla Naval&quot; en una cuadrícula de 5x5:&#10;•&#9;El programa debe &quot;esconder&quot; un barco de 3 casillas en una fila o columna aleatoria.&#10;•&#9;El jugador tiene 10 turnos para adivinar las coordenadas (ej. &quot;A3&quot;) y hundir el barco.&#10;•&#9;El programa debe gestionar el tablero (una lista de listas), validar la entrada del usuario, indicar si un disparo fue &quot;Agua&quot; o &quot;Tocado&quot;, y llevar la cuenta de los turnos.&#10;&#10;•&#9;Al final, debe declarar si el jugador ganó o perdió.">
+      <option name="closed" value="true" />
+      <created>1756169266996</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1756169266996</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Version Final del Taller">
+      <option name="closed" value="true" />
+      <created>1756169376096</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1756169376096</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,16 +336,18 @@
     <MESSAGE value="Ejercicio-12 =: Simulador de Lanzamiento de Dados&#10;•&#9;Crea un programa que simule el lanzamiento de dos dados 10,000 veces.&#10;•&#9;Usa un diccionario para contar la frecuencia de cada posible suma de los dados (de 2 a 12).&#10;•&#9;Al final, imprime un reporte con la frecuencia de cada suma." />
     <MESSAGE value="Ejercicio-13 =Diseñar un pequeño juego de aventura basado en texto. El jugador comienza en una habitación y puede tomar decisiones ('ir al norte', 'abrir cofre'):&#10;•&#9;El juego debe tener al menos 3 habitaciones y un estado final (ganar o perder).&#10;•&#9;Utiliza un bucle while para el bucle principal del juego y estructuras if/elif/else para manejar las decisiones del jugador y el estado del juego." />
     <MESSAGE value="Ejercicio-14 =Diseña una versión para consola del clásico juego del &quot;Ahorcado&quot;. El programa debe ser capaz de gestionar toda la lógica del juego, desde la selección de la palabra hasta determinar si el jugador ha ganado o perdido." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio-14 =Diseña una versión para consola del clásico juego del &quot;Ahorcado&quot;. El programa debe ser capaz de gestionar toda la lógica del juego, desde la selección de la palabra hasta determinar si el jugador ha ganado o perdido." />
+    <MESSAGE value="Ejercicio-15 =Crea una versión del juego &quot;Batalla Naval&quot; en una cuadrícula de 5x5:&#10;•&#9;El programa debe &quot;esconder&quot; un barco de 3 casillas en una fila o columna aleatoria.&#10;•&#9;El jugador tiene 10 turnos para adivinar las coordenadas (ej. &quot;A3&quot;) y hundir el barco.&#10;•&#9;El programa debe gestionar el tablero (una lista de listas), validar la entrada del usuario, indicar si un disparo fue &quot;Agua&quot; o &quot;Tocado&quot;, y llevar la cuenta de los turnos.&#10;&#10;•&#9;Al final, debe declarar si el jugador ganó o perdió." />
+    <MESSAGE value="Version Final del Taller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version Final del Taller" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_5.coverage" NAME="Ejercicio_5 Coverage Results" MODIFIED="1756166232244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_8.coverage" NAME="Ejercicio_8 Coverage Results" MODIFIED="1756167155719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_2.coverage" NAME="Ejercicio_2 Coverage Results" MODIFIED="1756138660514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_15.coverage" NAME="Ejercicio_15 Coverage Results" MODIFIED="1756169052490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_15.coverage" NAME="Ejercicio_15 Coverage Results" MODIFIED="1756169165076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_9.coverage" NAME="Ejercicio_9 Coverage Results" MODIFIED="1756167360108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_13.coverage" NAME="Ejercicio_13 Coverage Results" MODIFIED="1756168199152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_14.coverage" NAME="Ejercicio_14 Coverage Results" MODIFIED="1756168647604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_14.coverage" NAME="Ejercicio_14 Coverage Results" MODIFIED="1756294881395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_3.coverage" NAME="Ejercicio_3 Coverage Results" MODIFIED="1756139361208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PYTHON_MODULO_2$Ejercicio_1.coverage" NAME="Ejercicio_1 Coverage Results" MODIFIED="1756135594868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

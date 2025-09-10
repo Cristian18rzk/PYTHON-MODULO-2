@@ -1,70 +1,83 @@
-def aventura_templo():
-    print("El Misterio del Templo Perdido")
-    print("Te encuentras en la entrada de un antiguo templo. Debes encontrar la 'Joya del Sol' para escapar.")
-    print("Solo tienes 3 movimientos para lograrlo.\n")
+import random
 
-    habitacion_actual = "entrada_templo"
+
+def aventura_templo(acciones):
+    """
+    Simula la aventura del templo con una lista de acciones predefinidas.
+    Devuelve un string con el resultado del juego.
+    """
     movimientos_restantes = 3
     joya_encontrada = False
+    habitacion_actual = "entrada_templo"
+
+    # Crea un iterador para consumir las acciones una por una
+    acciones_iter = iter(acciones)
 
     while movimientos_restantes > 0:
-        print(f"--- Te quedan {movimientos_restantes} movimiento(s) ---")
+        try:
+            accion = next(acciones_iter).lower()
+        except StopIteration:
+            # Si se acaban las acciones, el jugador se queda sin movimientos
+            break
 
-        # Lógica para la habitación actual
         if habitacion_actual == "entrada_templo":
-            print("\nEstás en la entrada del templo. Hay dos caminos:")
-            print("1. 'ir al este' hacia la sala de estatuas")
-            print("2. 'ir al norte' hacia el pasillo oscuro")
-            accion = input("¿Qué camino eliges? ").lower()
-
-            if accion == "1" or accion == "este":
+            if accion in ["1", "este"]:
                 habitacion_actual = "sala_estatuas"
-            elif accion == "2" or accion == "norte":
+            elif accion in ["2", "norte"]:
                 habitacion_actual = "pasillo_oscuro"
             else:
-                print(" Acción no válida. Pierdes un movimiento por la indecisión.")
+                movimientos_restantes -= 1
+                continue  # No cambia de habitación
 
         elif habitacion_actual == "sala_estatuas":
-            print("\nHas llegado a la sala de estatuas. Hay una estatua que brilla.")
-            print("1. 'examinar' la estatua")
-            print("2. 'volver' a la entrada del templo")
-            accion = input("¿Qué haces? ").lower()
-
-            if accion == "1" or accion == "examinar":
-                print("Revisas la estatua y encuentras la 'Joya del Sol' en su base.")
+            if accion in ["1", "examinar"]:
                 joya_encontrada = True
-                print("\n🎉 ¡Has encontrado la joya! ¡Ganaste!")
-                break  # Sale del bucle para terminar el juego
-            elif accion == "2" or accion == "volver":
+                return "victoria"
+            elif accion in ["2", "volver"]:
                 habitacion_actual = "entrada_templo"
             else:
-                print("Acción no válida. Pierdes un movimiento.")
+                movimientos_restantes -= 1
+                continue
 
         elif habitacion_actual == "pasillo_oscuro":
-            print("\nEstás en un pasillo oscuro y estrecho. Sientes que algo se mueve...")
-            print("1. 'continuar' por el pasillo")
-            print("2. 'correr' de regreso a la entrada")
-            accion = input("¿Qué haces? ").lower()
-
-            if accion == "1" or accion == "continuar":
-                print("\nCaes en una trampa oculta. El suelo se desvanece y caes al vacío.")
-                print("\n¡Has perdido! Vuelve a intentarlo.")
-                return  # Termina la función y el juego
-
-            elif accion == "2" or accion == "correr":
+            if accion in ["1", "continuar"]:
+                return "derrota_trampa"
+            elif accion in ["2", "correr"]:
                 habitacion_actual = "entrada_templo"
             else:
-                print("Acción no válida. Pierdes un movimiento.")
+                movimientos_restantes -= 1
+                continue
 
-        # Disminuye los movimientos restantes después de cada acción
         movimientos_restantes -= 1
 
-    # Comprueba el estado final si el bucle termina por los movimientos
     if not joya_encontrada:
-        print("\nEl tiempo se ha agotado y no encontraste la joya.")
-        print("¡Has perdido! No pudiste escapar del templo.")
+        return "derrota_tiempo"
 
 
-# Ejecuta el juego
+# Esta es la función que ejecutarías para jugar en la consola
+def jugar_aventura_consola():
+    print("El Misterio del Templo Perdido")
+    print("...")
+
+    # Aquí es donde leemos la entrada del usuario
+    acciones_usuario = []
+    while True:
+        accion = input("¿Qué camino eliges? ")
+        acciones_usuario.append(accion)
+
+        # Llama a la lógica principal con las acciones del usuario
+        resultado = aventura_templo(acciones_usuario)
+
+        # Muestra el resultado final al usuario
+        if resultado:
+            if resultado == "victoria":
+                print("\n¡Has encontrado la joya! ¡Ganaste!")
+            elif resultado == "derrota_trampa":
+                print("\nCaes en una trampa oculta. ¡Has perdido!")
+            elif resultado == "derrota_tiempo":
+                print("\nEl tiempo se ha agotado. ¡Has perdido!")
+            break
+
+
 if __name__ == "__main__":
-    aventura_templo()
+    jugar_aventura_consola()
